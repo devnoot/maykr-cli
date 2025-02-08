@@ -1,0 +1,7 @@
+.venv
+*.egg-info
+maykr/__pycache__
+.pytest_cache
+maykr.egg-info
+tests/__pycache__
+tests/test_mod
