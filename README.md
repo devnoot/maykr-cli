@@ -2,7 +2,18 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/devnoot/maykr-cli?label=Latest)](https://github.com/devnoot/maykr-cli/releases/latest)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/devnoot/maykr-cli/release.yml?branch=main)](https://github.com/devnoot/maykr-cli/actions)
-[![Python Version](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com/devnoot/maykr-cli/releases)
+[![Python Version](https://img.shields.io/badge/python-3.14+-blue.svg)](https://www.python.org/)
+
+## Installation
+
+Download the standalone executable for your operating system (no Python installation required):
+
+- [🍎 macOS (Universal)](https://github.com/devnoot/maykr-cli/releases/latest/download/maykr-macos-universal)
+- [🐧 Linux (amd64)](https://github.com/devnoot/maykr-cli/releases/latest/download/maykr-linux-amd64)
+- [🪟 Windows (amd64)](https://github.com/devnoot/maykr-cli/releases/latest/download/maykr-windows-amd64.exe)
+
+*(After downloading on macOS/Linux, remember to make the file executable: `chmod +x maykr-*`)*
 
 ## Usage
 
