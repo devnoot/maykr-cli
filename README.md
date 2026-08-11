@@ -1,5 +1,9 @@
 # maykr
 
+[![Latest Release](https://img.shields.io/github/v/release/devnoot/maykr-cli?label=Latest)](https://github.com/devnoot/maykr-cli/releases/latest)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/devnoot/maykr-cli/release.yml?branch=main)](https://github.com/devnoot/maykr-cli/actions)
+[![Python Version](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+
 ## Usage
 
 The `maykr` CLI tool helps you bootstrap and manage your Doom mods. Below are the available commands and their usage:
