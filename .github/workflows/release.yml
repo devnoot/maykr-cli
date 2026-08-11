@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -39,7 +40,7 @@ jobs:
 
       - name: Build executable with PyInstaller
         run: |
-          pyinstaller --onefile --name ${{ matrix.artifact_name }} run_maykr.py
+          pyinstaller --onefile --name ${{ matrix.artifact_name }} maykr/cli.py
 
       - name: Upload Binary Asset
         uses: softprops/action-gh-release@v2
