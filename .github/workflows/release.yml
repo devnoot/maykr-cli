@@ -45,7 +45,7 @@ jobs:
           pyinstaller --onefile --name ${{ matrix.artifact_name }} maykr/cli.py
 
       - name: Upload Binary Asset
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: dist/${{ matrix.artifact_name }}
         env:
