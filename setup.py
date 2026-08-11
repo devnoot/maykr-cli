@@ -7,7 +7,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "dm=maykr.cli:main",
+            "maykr=maykr.cli:main",
         ],
     },
     author="Anthony W. Weed <anthony.w.weed@gmail.com>",

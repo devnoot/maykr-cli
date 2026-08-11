@@ -6,10 +6,10 @@ The `maykr` CLI tool helps you bootstrap and manage your Doom mods. Below are th
 
 ### Creating a New Mod
 
-To create a new Doom mod, use the `dm new mod` command:
+To create a new Doom mod, use the `maykr new mod` command:
 
 ```sh
-dm new mod --name <mod_name> [--path <path>] [--no-git] [--decorate] [--debug]
+maykr new mod --name <mod_name> [--path <path>] [--no-git] [--decorate] [--debug]
 ```
 
 * `--name`: The name of the mod (required).
@@ -20,10 +20,10 @@ dm new mod --name <mod_name> [--path <path>] [--no-git] [--decorate] [--debug]
 
 ### Creating a New Weapon
 
-To create a new ZScript weapon, use the dm new weapon command:
+To create a new ZScript weapon, use the maykr new weapon command:
 
 ```sh
-dm new weapon --name <weapon_name> [--extend <base_class>] [--mod-path <mod_path>] [--debug]
+maykr new weapon --name <weapon_name> [--extend <base_class>] [--mod-path <mod_path>] [--debug]
 ```
 
 
@@ -34,10 +34,10 @@ dm new weapon --name <weapon_name> [--extend <base_class>] [--mod-path <mod_path
 
 ### Creating a New Sprite
 
-To create a new sprite, use the dm new sprite command:
+To create a new sprite, use the maykr new sprite command:
 
 ```sh
-dm new sprite --name <sprite_name> --width <width> --height <height> [--anim] [--duration <duration>] [--mod-path <mod_path>] [--debug]
+maykr new sprite --name <sprite_name> --width <width> --height <height> [--anim] [--duration <duration>] [--mod-path <mod_path>] [--debug]
 ```
 
 * `--name`: The name of the sprite (without extension, required).
@@ -50,10 +50,10 @@ dm new sprite --name <sprite_name> --width <width> --height <height> [--anim] [-
 
 ### Creating a New Item
 
-To create a new inventory item, use the dm new item command:
+To create a new inventory item, use the maykr new item command:
 
 ```sh
-dm new item --name <item_name> [--extend <base_class>] [--mod-path <mod_path>] [--debug]
+maykr new item --name <item_name> [--extend <base_class>] [--mod-path <mod_path>] [--debug]
 ```
 
 * `--name`: The name of the item class (required).

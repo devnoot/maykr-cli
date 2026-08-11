@@ -11,7 +11,7 @@ def configure_logging(debug):
     logging.basicConfig(level=level, format='%(message)s')
 
 def main():
-    parser = argparse.ArgumentParser(prog="dm", description="Doom Maykr CLI - Bootstrap a new Doom mod")
+    parser = argparse.ArgumentParser(prog="maykr", description="Maykr CLI - Doom modding tools")
 
     subparsers = parser.add_subparsers(dest="command", required=True)
 

@@ -1,1 +1,1 @@
-# doom_maykr/__init__.py
+# maykr/__init__.py
