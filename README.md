@@ -1,5 +1,7 @@
 # maykr
 
+The maykr is a command line tool that can bootstrap various aspects of your classic doom mod.
+
 [![Latest Release](https://img.shields.io/github/v/release/devnoot/maykr-cli?label=Latest)](https://github.com/devnoot/maykr-cli/releases/latest)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/devnoot/maykr-cli/release.yml?branch=main)](https://github.com/devnoot/maykr-cli/actions)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com/devnoot/maykr-cli/releases)
@@ -7,17 +9,19 @@
 
 ## Installation
 
-Download the standalone executable for your operating system (no Python installation required):
+Download the standalone executable for your operating system:
 
-- [🍎 macOS (Universal)](https://github.com/devnoot/maykr-cli/releases/latest/download/maykr-macos-universal)
-- [🐧 Linux (amd64)](https://github.com/devnoot/maykr-cli/releases/latest/download/maykr-linux-amd64)
-- [🪟 Windows (amd64)](https://github.com/devnoot/maykr-cli/releases/latest/download/maykr-windows-amd64.exe)
+- [macOS (Universal)](https://github.com/devnoot/maykr-cli/releases/latest/download/maykr-macos-universal)
+- [Linux (amd64)](https://github.com/devnoot/maykr-cli/releases/latest/download/maykr-linux-amd64)
+- [Windows (amd64)](https://github.com/devnoot/maykr-cli/releases/latest/download/maykr-windows-amd64.exe)
 
 *(After downloading on macOS/Linux, remember to make the file executable: `chmod +x maykr-*`)*
 
-## Usage
+## Developers
 
-The `maykr` CLI tool helps you bootstrap and manage your Doom mods. Below are the available commands and their usage:
+Clone the repo, install from requirements from `requirements.txt`, and run `maykr/cli.py`
+
+## Usage
 
 ### Creating a New Mod
 
