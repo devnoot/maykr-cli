@@ -1,6 +1,6 @@
 # maykr
 
-The maykr is a command line tool that can bootstrap various aspects of your classic doom mod.
+maykr is a command line tool that can bootstrap various aspects of your classic doom mod.
 
 [![Latest Release](https://img.shields.io/github/v/release/devnoot/maykr-cli?label=Latest)](https://github.com/devnoot/maykr-cli/releases/latest)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/devnoot/maykr-cli/release.yml?branch=main)](https://github.com/devnoot/maykr-cli/actions)
