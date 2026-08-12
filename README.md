@@ -41,24 +41,26 @@ This will bootstrap your mod into the path specified. Folders for various types 
 
 <details>
 <summary>An empty mod folder will look like this:</summary>
+
+
 ```
 MyMod/
-├── acs         
-├── colormaps   
-├── filter      
-├── flats       
-├── graphics      
-├── hires         
-├── items         
-├── maps       
-├── monsters   
-├── patches    
-├── music      
-├── sprites    
-├── textures   
-├── sounds     
+├── acs
+├── colormaps
+├── filter
+├── flats
+├── graphics
+├── hires
+├── items
+├── maps
+├── monsters
+├── patches
+├── music
+├── sprites
+├── textures
+├── sounds
 ├── voxels
-├── voices    
+├── voices
 ├── weapons
 ├── mapinfo.txt
 ├── zmapinfo.txt
@@ -84,7 +86,7 @@ maykr new weapon --name <weapon_name> [--extend <base_class>] [--mod-path <mod_p
 <details>
   <summary>Example: weapons/ChickenCannon9000.zs</summary>
 
-```
+```c
 class ChickenCannon9000 : Weapon {
 
     Default {
@@ -163,7 +165,7 @@ maykr new item --name <item_name> [--extend <base_class>] [--mod-path <mod_path>
 <details>
   <summary>Example: items/SuperClip.zs</summary>
 
-```
+```c
 class SuperClip : Inventory
 {
     Default
